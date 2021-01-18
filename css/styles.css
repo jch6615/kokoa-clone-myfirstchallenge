@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/red-dot.css";
+@import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  color: #2e363e;
+  font-family: "Bangers", cursive;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+#body__img {
+  background-image: url(https://cdn.wallpapersafari.com/47/33/SLGkuA.jpg);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+#img__jarvis {
+  background-image: url(https://i.pinimg.com/originals/4f/75/d1/4f75d1035914f8c4afba1f3d0e455153.png);
+}
